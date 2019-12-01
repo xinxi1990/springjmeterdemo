@@ -31,4 +31,6 @@ CREATE INDEX index_name ON city (province_id)
 
 http://localhost:8090/swagger-ui.html#
 
+![image](swagger.jpg)
+
 

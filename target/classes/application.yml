@@ -1,0 +1,30 @@
+swagger:
+  enabled: true
+  base-package: org.spring.springboot.controller
+  path-mapping: /
+  info:
+    contact:
+      name: taccisum
+      url: https://taccisum.github.io
+      email: 3277800095@qq.com
+    description:
+      show-hostname: true
+      show-profiles: true
+      show-start-date: true
+    license: MIT
+    license-url: https://mit-license.org/
+    title: Sample docs
+    version: 1.0
+    terms-of-service-url: https://www.baidu.com
+  include-paths:
+    - /**
+  exclude-paths:
+    - /**/dev/**
+  ui:
+    filter: true
+    display-operation-id: true
+    display-request-duration: true
+    default-model-rendering: model
+    supported-submit-methods:
+      - get
+      - post
